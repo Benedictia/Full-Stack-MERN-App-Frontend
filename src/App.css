@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+  background-color: ghostwhite;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.article {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #4CAF50;
+}
+
+h2 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+a:hover {
+  text-decoration: rgb(10, 223, 74);
+}
+
+.article-image {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #333; 
+  padding: 10px 20px; 
+}
+
+
+.navbar-link {
+  color: white; 
+ 
+  font-size: 18px; 
+  padding: 10px 15px; 
+ 
+}
+
+.navbar-link:hover {
+  color: #007bff; 
+  border-radius: 5px; 
+}
