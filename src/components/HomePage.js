@@ -13,7 +13,9 @@ const HomePage = () => {
     const fetchArticles = async () => {
       try {
         const response = await axios.get('https://full-stack-mern-app-backend-2.onrender.com/api/articles');
-        setArticles(response.data);
+        const sortedArticles = response.data.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+        setArticles(sortedArticles);
+      
         setLoading(false);
       } catch (err) {
         setError('Failed to fetch articles');
