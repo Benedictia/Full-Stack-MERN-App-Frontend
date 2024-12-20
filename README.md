@@ -4,7 +4,7 @@ This is a full-stack application that fetches trending news from the News API an
 
 Use Javascript, React, Axios, CSS
 News API: Fetches trending news articles. request for the API key
-
+Link to the frontend:https://full-stack-mern-app-frontend.onrender.com
  How to run the application
 Install Node.js and npm install all the necessary dependencies
 
